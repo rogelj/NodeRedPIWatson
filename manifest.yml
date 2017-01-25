@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeRedPIWatson
+  host: NodeRedPIWatson
+  disk_quota: 1024M
+  services:
+  - Personality Insights-kc
+  - NodeRedPIWatson-cloudantNoSQLDB
+  - Insights for Twitter-wk
